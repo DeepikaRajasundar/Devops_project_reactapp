@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appserver-deployment
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: appserver
+  template:
+    metadata:
+      labels:
+        app: appserver
+    spec:
+      containers:
+      - name: appserver
+        image: appserver:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80

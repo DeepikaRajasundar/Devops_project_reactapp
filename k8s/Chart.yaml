@@ -1,0 +1,4 @@
+apiVersion: v2
+name: app-cluster
+description: A Helm chart for deploying noteapp in a cluster
+version: 1.0.0
