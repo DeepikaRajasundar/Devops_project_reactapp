@@ -1,5 +1,5 @@
 # Dockerizing React App with NGINX and Kubernetes Deployment using Helm
-This project demonstrates how to Dockerize a React app with NGINX, and deploy it on Kubernetes using Minikube. Follow these steps to build the Docker image, create a Kubernetes Deployment, expose it as a service, and access the application through Minikube.
+This project demonstrates how to Dockerize a React app with NGINX, and deploy it on Kubernetes using Helm Chart. Follow these steps to build the Docker image, create a Kubernetes Deployment, expose it as a service, and access the application through Minikube.
 
 ## Prerequisites
 + `Docker` installed on your machine.
